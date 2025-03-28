@@ -7,12 +7,12 @@ import time
 import sys
 
 sys.path.append('..')
-from imgocr import ImgOcr
-from imgocr import draw_ocr_boxes
+from imgocr.ppocr_onnx import ImgOcr
+from imgocr.ppocr_onnx import draw_ocr_boxes
 
 if __name__ == "__main__":
     m = ImgOcr(use_gpu=False, is_efficiency_mode=True)
-    img_path = "data/11.jpg"
+    img_path = "examples/data/11.jpg"
     s = time.time()
     result = m.ocr(img_path)
     e = time.time()
