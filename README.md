@@ -204,3 +204,8 @@ BibTeX:
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  
 - [Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX)
 - [ppocr-onnx](https://github.com/triwinds/ppocr-onnx)
+
+
+
+## 启动
+source venv/bin/activate

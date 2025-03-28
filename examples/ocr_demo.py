@@ -5,6 +5,7 @@
 """
 import time
 import sys
+import os
 
 sys.path.append('..')
 from imgocr.ppocr_onnx import ImgOcr
@@ -21,6 +22,13 @@ if __name__ == "__main__":
     for i in result:
         print(i['text'])
 
+    # 创建output目录（如果不存在）
+    output_dir = "output"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # 生成输出文件名
+    output_file = os.path.join(output_dir, '11_box.jpg')
+    
     # draw boxes
-    draw_ocr_boxes(img_path, result, '11_box.jpg')
-    print('Save result to 11_box.jpg')
+    draw_ocr_boxes(img_path, result, output_file)
+    print(f'Save result to {output_file}')
