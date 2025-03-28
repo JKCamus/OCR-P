@@ -1,21 +1,3 @@
-[**🇨🇳中文**](https://github.com/shibing624/imgocr/blob/main/README.md) | [**🌐English**](https://github.com/shibing624/imgocr/blob/main/README_EN.md) | [**📖文档/Docs**](https://github.com/shibing624/imgocr/wiki) 
-
-<div align="center">
-  <a href="https://github.com/shibing624/imgocr">
-    <img src="https://github.com/shibing624/imgocr/blob/main/docs/imgocr-logo.png" height="150" alt="Logo">
-  </a>
-</div>
-
------------------
-
-# imgocr: Image OCR toolkit
-[![PyPI version](https://badge.fury.io/py/imgocr.svg)](https://badge.fury.io/py/imgocr)
-[![Downloads](https://static.pepy.tech/badge/imgocr)](https://pepy.tech/project/imgocr)
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![python_version](https://img.shields.io/badge/Python-3.6%2B-green.svg)](requirements.txt)
-[![GitHub issues](https://img.shields.io/github/issues/shibing624/imgocr.svg)](https://github.com/shibing624/imgocr/issues)
-[![Wechat Group](https://img.shields.io/badge/wechat-group-green.svg?logo=wechat)](#Contact)
 
 
 **imgocr**：Python3 package for Chinese/English OCR, with paddleocr-v4 onnx model(~14MB).
@@ -169,14 +151,6 @@ imgocr --image_dir data
 
 > 输入图片目录（--image_dir， required）
 
-## Contact
-
-- Issue(建议)：[![GitHub issues](https://img.shields.io/github/issues/shibing624/imgocr.svg)](https://github.com/shibing624/imgocr/issues)
-- 邮件我：xuming: xuming624@qq.com
-- 微信我：加我*微信号：xuming624, 备注：姓名-公司-NLP* 进NLP交流群。
-
-<img src="https://github.com/shibing624/imgocr/blob/main/docs/wechat.jpeg" width="200" />
-
 
 ## Citation
 
@@ -201,24 +175,7 @@ BibTeX:
 
 ## License
 
-
 授权协议为 [The Apache License 2.0](LICENSE)，可免费用做商业用途。请在产品说明中附加imgocr的链接和授权协议。
-
-
-## Contribute
-项目代码还很粗糙，如果大家对代码有所改进，欢迎提交回本项目，在提交之前，注意以下两点：
-
- - 在`tests`添加相应的单元测试
- - 使用`python -m pytest -v`来运行所有单元测试，确保所有单测都是通过的
-
-之后即可提交PR。
-
-## References
-- [RapidOCR](https://github.com/RapidAI/RapidOCR)  
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)  
-- [Paddle2ONNX](https://github.com/PaddlePaddle/Paddle2ONNX)
-- [ppocr-onnx](https://github.com/triwinds/ppocr-onnx)
-
 
 
 ## 启动
